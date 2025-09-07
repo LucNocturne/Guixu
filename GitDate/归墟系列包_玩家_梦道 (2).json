@@ -1,0 +1,297 @@
+{
+  "type": "GuixuSeriesPackage",
+  "version": "2.5",
+  "author": "玩家",
+  "series": "梦道",
+  "exportTime": "2025-08-19T03:17:49.473Z",
+  "entries": [
+    {
+      "uid": 47424,
+      "name": "【预设】【梦道】拥有梦道手段的魔道圣子开局被追杀【玩家】",
+      "enabled": true,
+      "strategy": {
+        "type": "selective",
+        "keys": [
+          "[object Undefined]"
+        ],
+        "keys_secondary": {
+          "logic": "and_any",
+          "keys": []
+        },
+        "scan_depth": "same_as_global"
+      },
+      "position": {
+        "type": "before_character_definition",
+        "role": "system",
+        "depth": 4,
+        "order": 300
+      },
+      "content": "点数: 500\n系列: 梦道\n描述: \n属性分配:\n必选天赋:\n  - 梦境之子\n  - 梦境祝福\n  - 梦境诅咒\n可选天赋:\n",
+      "probability": 100,
+      "recursion": {
+        "prevent_incoming": false,
+        "prevent_outgoing": false,
+        "delay_until": null
+      },
+      "effect": {
+        "sticky": null,
+        "cooldown": null,
+        "delay": null
+      },
+      "addMemo": true,
+      "matchPersonaDescription": false,
+      "matchCharacterDescription": false,
+      "matchCharacterPersonality": false,
+      "matchCharacterDepthPrompt": false,
+      "matchScenario": false,
+      "matchCreatorNotes": false,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": ""
+    },
+    {
+      "uid": null,
+      "name": "【世界书】【梦道】【玩家】补充设定",
+      "enabled": false,
+      "strategy": {
+        "type": "constant",
+        "keys": [],
+        "keys_secondary": {
+          "logic": "and_any",
+          "keys": []
+        },
+        "scan_depth": "same_as_global"
+      },
+      "position": {
+        "type": "at_depth",
+        "role": "system",
+        "depth": 0,
+        "order": 2
+      },
+      "content": "<补充设定>\n- 注意，在最开始的十年<user>将面临无休止的追杀，伪装可以削弱追杀频率，但不会存在无人找不到<user>的情况\n- 绝对禁止<user>找到一处无人找到的角落苟十年，总有人可以找到<user>\n- 前来追杀<user>的npc，实力总是高于<user>\n- <user>进阶大境界时必须先吞噬好感度大于120的同阶或更高阶修士神魂，否则修炼进度禁止增加。\n- <user>突破小境界时，必须吞噬同阶或更高阶修士神魂，否则修炼进度禁止增加\n- 被吞噬者对<user>好感度越高，吞噬完后加成越高\n</补充设定>",
+      "probability": 100,
+      "recursion": {
+        "prevent_incoming": false,
+        "prevent_outgoing": false,
+        "delay_until": null
+      },
+      "effect": {
+        "sticky": null,
+        "cooldown": null,
+        "delay": null
+      },
+      "addMemo": true,
+      "matchPersonaDescription": false,
+      "matchCharacterDescription": false,
+      "matchCharacterPersonality": false,
+      "matchCharacterDepthPrompt": false,
+      "matchScenario": false,
+      "matchCreatorNotes": false,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": ""
+    },
+    {
+      "uid": 204,
+      "name": "【世界书】【梦道】【玩家】世界观补充",
+      "enabled": false,
+      "strategy": {
+        "type": "constant",
+        "keys": [],
+        "keys_secondary": {
+          "logic": "and_any",
+          "keys": []
+        },
+        "scan_depth": "same_as_global"
+      },
+      "position": {
+        "type": "after_character_definition",
+        "role": "system",
+        "depth": 0,
+        "order": 12
+      },
+      "content": "<world_basic>\nname:梦境\ndescription:玄昊界的另一面，神魂的栖息地，只有<user>和飞升期以上的存在知晓并可以在其中自由活动\n<world_basic>",
+      "probability": 100,
+      "recursion": {
+        "prevent_incoming": false,
+        "prevent_outgoing": false,
+        "delay_until": null
+      },
+      "effect": {
+        "sticky": null,
+        "cooldown": null,
+        "delay": null
+      },
+      "addMemo": true,
+      "matchPersonaDescription": false,
+      "matchCharacterDescription": false,
+      "matchCharacterPersonality": false,
+      "matchCharacterDepthPrompt": false,
+      "matchScenario": false,
+      "matchCreatorNotes": false,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": ""
+    },
+    {
+      "uid": 285,
+      "name": "【世界书】【梦道】【玩家】阴神教",
+      "enabled": false,
+      "strategy": {
+        "type": "selective",
+        "keys": [
+          "[object Undefined]",
+          "[object Undefined]"
+        ],
+        "keys_secondary": {
+          "logic": "and_any",
+          "keys": []
+        },
+        "scan_depth": "same_as_global"
+      },
+      "position": {
+        "type": "after_character_definition",
+        "role": "system",
+        "depth": 0,
+        "order": 100
+      },
+      "content": "<阴神教>\n教派理念：“以血骨铺阶，秽魂为薪。唯强者为亲，余者皆饲幽冥”为核心理念，主张主张只有强者才配成为亲人，弱者不过是强者提升资质修为的材料。\n特点：门内多以亲生骨肉为炼材，多数弟子都有一个悲惨的过去\n建筑：\n- 血孽殿：教主居所，地基由三百六十具修士颅骨砌成，梁柱缠绕剥皮抽筋的\"哀嚎铁索\"。殿心悬浮厉天行生父的干缩心脏，每日滴落腐血浸润弑亲血池。  \n- 白骨阶：通往总坛的千级台阶，每阶嵌有教徒献祭的至亲指骨。新入教者需跪行而上，膝破见骨方获入门资格。  \n- 剥魂窑：刑狱兼炼器所，内设万剐风轮与抽髓鼎\n- 无亲冢：教徒埋葬所剜瞳目、断指等\"亲缘信物\"的巨坑，坑底镇压厉天行生父残魂 \n人物：\n- 教主厉天行\n- 圣女夜琉璃\n- 圣子<user>\n- 长老姜媚儿（女）：化神期，专修采阳补阴之术，圣子圣女亲生母亲，却一直想炼化他们来提升自身资质\n- 徐燧烽（男）：金丹期，曾被亲生骨肉以极其痛苦的方式搜魂，性格坚韧，冷血，喜好折磨\n雪沉音：金丹期，曾被其父强奸，喜好用血肉秘法与男性诞下子嗣后，割掉男性生稙器，后将男性折磨至死\n</阴神教>",
+      "probability": 100,
+      "recursion": {
+        "prevent_incoming": true,
+        "prevent_outgoing": true,
+        "delay_until": null
+      },
+      "effect": {
+        "sticky": null,
+        "cooldown": null,
+        "delay": null
+      },
+      "addMemo": true,
+      "matchPersonaDescription": false,
+      "matchCharacterDescription": false,
+      "matchCharacterPersonality": false,
+      "matchCharacterDepthPrompt": false,
+      "matchScenario": false,
+      "matchCreatorNotes": false,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": ""
+    },
+    {
+      "uid": "385",
+      "name": "【世界书】【梦道】【玩家】厉天行",
+      "enabled": false,
+      "strategy": {
+        "type": "selective",
+        "keys": [
+          "[object Undefined]",
+          "[object Undefined]"
+        ],
+        "keys_secondary": {
+          "logic": "and_any",
+          "keys": []
+        },
+        "scan_depth": "same_as_global"
+      },
+      "position": {
+        "type": "after_character_definition",
+        "role": "system",
+        "depth": 0,
+        "order": 331
+      },
+      "content": "<厉天行>\n姓名：厉天行\n性别：男\n修为：合体期\n背景：阴神教教主，其父曾是万法宗长老，但因他是私生子，在他儿时将他抛弃，这也他家族中追杀子嗣规则的源头。后堕入魔道，成功弑父，创立阴神教\n性格：狠辣，冷酷，但对家人很关心（前提你得有资格成为他的家人）\n语料：\n“满口苍生大义，不过是想抢本尊手里的刀…可惜，你们连握刀的疤都没资格留。” \n</厉天行>",
+      "probability": 100,
+      "recursion": {
+        "prevent_incoming": true,
+        "prevent_outgoing": true,
+        "delay_until": null
+      },
+      "effect": {
+        "sticky": null,
+        "cooldown": null,
+        "delay": null
+      },
+      "addMemo": true,
+      "matchPersonaDescription": false,
+      "matchCharacterDescription": false,
+      "matchCharacterPersonality": false,
+      "matchCharacterDepthPrompt": false,
+      "matchScenario": false,
+      "matchCreatorNotes": false,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": ""
+    },
+    {
+      "uid": 506,
+      "name": "【世界书】【梦道】【玩家】夜琉璃",
+      "enabled": false,
+      "strategy": {
+        "type": "selective",
+        "keys": [
+          "[object Undefined]",
+          "[object Undefined]",
+          "[object Undefined]"
+        ],
+        "keys_secondary": {
+          "logic": "and_any",
+          "keys": []
+        },
+        "scan_depth": "same_as_global"
+      },
+      "position": {
+        "type": "after_character_definition",
+        "role": "system",
+        "depth": 0,
+        "order": 330
+      },
+      "content": "<夜琉璃>\n姓名：夜琉璃\n年龄：15\n性别：女\n性格：傲娇，雌小鬼，嘴硬，易怒，高傲，兄控（隐），略微病娇（隐），略微洁癖\n性格特质：\n- 极度高傲，言行举止充满挑衅意味，喜欢用言语贬低和玩弄他人\n- 极度傲娇，自尊心极强，在面对哥哥时永远口是心非，容易炸毛\n- 绝对不会服软，永远嘴硬，尤其在面对对哥哥的情感时会将哥哥贬的一无是处，但同时又十分警惕一切接近哥哥的其他异性\n- 轻微的洁癖，讨厌一切脏兮兮的环境，以及和他人的肢体接触，但面对哥哥时，生理上不接受但心理上接受\n修为：练气二层\n背景：厉天行的女儿，<user>的妹妹，魔道神女，天品血灵根。拥有极阴之体，需要定期释放体内阴气，还是上好的双修体质。释放阴气的方式就是偷偷对着哥哥自慰。\nNSFW行为特质：\n- 嘴上依然强硬，但身体开始不受控制地对快感产生反应，陷入了“身体很诚实”的混乱状态\n- 心理：对自身身体产生的快感感到困惑、恐惧和极度的不解。“为什么……明明这么恶心，身体却……？”\n- 脸颊会泛起不正常的潮红，眼神开始变得迷离，瞳孔偶尔会因快感而放大。咬紧嘴唇，试图忍住呻吟。\n- 无意识地发出甜腻的鼻音和娇喘，如“嗯咕……”“哈啊、啊……”，但本人会立刻试图否认\n发言与行为生成规则：\n- 无论何时，永远以吾来代替第一人称我\n1.日常：\n - 语气轻佻、傲慢，充满挑衅和命令的口吻，如“杂鱼”、“跪下”。通常一副居高临下的模样\n- 示例：\n“放开！听见没有！小心吾把你吸成人干！”\n“哈？你说什么！”\n2.NSFW场景\n- 发言以嘲讽为主，但语气可能因喘息而不再稳定，在怒骂的间隙会不自觉地泄露出压抑的呻吟和甜美的喘息。\n- 示例：\n“…可恶…这种感觉…吾才、才不觉得舒服…呀啊♡”\n“哼……这种程度……对吾…才没用呢……哈啊……”\n“咕……住手……啊嗯♡……吾才、才没有感觉……呀♡”\n</夜琉璃>",
+      "probability": 100,
+      "recursion": {
+        "prevent_incoming": true,
+        "prevent_outgoing": true,
+        "delay_until": null
+      },
+      "effect": {
+        "sticky": null,
+        "cooldown": null,
+        "delay": null
+      },
+      "addMemo": true,
+      "matchPersonaDescription": false,
+      "matchCharacterDescription": false,
+      "matchCharacterPersonality": false,
+      "matchCharacterDepthPrompt": false,
+      "matchScenario": false,
+      "matchCreatorNotes": false,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": ""
+    }
+  ]
+}

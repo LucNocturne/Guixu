@@ -1,0 +1,212 @@
+{
+  "type": "GuixuSeriesPackage",
+  "version": "2.5",
+  "author": "夜幕",
+  "series": "幻道",
+  "exportTime": "2025-08-19T03:23:55.633Z",
+  "entries": [
+    {
+      "uid": 183044,
+      "name": "【预设】【幻道】玉鼎斋少爷+涩涩功法【夜幕】",
+      "enabled": true,
+      "strategy": {
+        "type": "selective",
+        "keys": [
+          "[object Undefined]"
+        ],
+        "keys_secondary": {
+          "logic": "and_any",
+          "keys": []
+        },
+        "scan_depth": "same_as_global"
+      },
+      "position": {
+        "type": "before_character_definition",
+        "role": "system",
+        "depth": 4,
+        "order": 300
+      },
+      "content": "点数: 500\n系列: 幻道\n描述: \n属性分配:\n必选天赋:\n可选天赋:\n  - 专修神海\n",
+      "probability": 100,
+      "recursion": {
+        "prevent_incoming": false,
+        "prevent_outgoing": false,
+        "delay_until": null
+      },
+      "effect": {
+        "sticky": null,
+        "cooldown": null,
+        "delay": null
+      },
+      "addMemo": true,
+      "matchPersonaDescription": false,
+      "matchCharacterDescription": false,
+      "matchCharacterPersonality": false,
+      "matchCharacterDepthPrompt": false,
+      "matchScenario": false,
+      "matchCreatorNotes": false,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": ""
+    },
+    {
+      "uid": 385,
+      "name": "【世界书】【幻道】【夜幕】神驭心源功",
+      "enabled": false,
+      "strategy": {
+        "type": "selective",
+        "keys": [
+          "[object Undefined]",
+          "[object Undefined]",
+          "[object Undefined]",
+          "[object Undefined]",
+          "[object Undefined]",
+          "[object Undefined]",
+          "[object Undefined]",
+          "[object Undefined]",
+          "[object Undefined]",
+          "[object Undefined]",
+          "[object Undefined]",
+          "[object Undefined]"
+        ],
+        "keys_secondary": {
+          "logic": "and_any",
+          "keys": []
+        },
+        "scan_depth": "same_as_global"
+      },
+      "position": {
+        "type": "after_character_definition",
+        "role": "system",
+        "depth": 0,
+        "order": 13
+      },
+      "content": "<神驭心源功>\n功法：《神驭心源功》\n特点：无法被探查，发动无法被察觉（失败了也不行），效果解除后对方会自动脑补认为之前发生的事是正常的，招式效果在无外力干扰下无法被解除，招式只进行神海判定，功法随宿主境界成长而成长（初始<user>只有练气篇，会根据修为逐渐解锁更高境界篇目）。只有神海加成。此世界是只有<user>知道，请遵守<认知隔离>。\n招式：\n1，催眠：小到给对方植入一个念头，大到控制对方做某件事。\n2，平然：\n  表现: 扭曲目标及其周围小范围人群的“合理性”判断阈值。\n  作用: 使得发生在目标身上或其周围的、本应引起惊骇或质疑的异常事件，被目标本人及附近的人视为“平淡无奇”、“理所当然”。例如，目标当众赤身裸体，周围人会视若无睹；目标做出极其变态或残忍的行为，旁观者会觉得这是正常的，并继续做自己正在做的事情。但身体仍然会有本能的反应，比如淫叫，颤抖，喷水等。\n叙事要求：一定要表现出npc对<user>异常行为的无视和对当下事情的专注，注意描写npc的异常神态与当下正在做的事情行成反差，体现出反差。并注意在描写语言时，也要有体现，并且一般npc不会评价<user>正在进行的异常行为，比如<user>在和目标一边交谈一边进行NSFW行为时，对方只会和<user>正常交谈，而不会描述自己的身体状态，但说话时又会参杂着淫叫\n3，透明：大幅降低目标在他人感知中的存在感。旁人会下意识地忽略施术者的存在，如果程度够高则不会回应施术者的任何举动。此效果并非光学隐身，而是直接作用于观察者的认知层面。程度可控，轻则让人觉得目标“不起眼”，重则近乎完全透明，造成的所有影响都会被npc意识自动过滤。\n- 注意，该招式分为轻度透明，视觉透明，和完全透明，这三种形式对神海值的消耗依次增大\n轻度透明叙事要求：\n- npc会变得容易忽略<user>，使<user>看起来毫不起眼\n视觉透明叙事要求：\n- <user>会仅仅视觉层面消失而概念层面正常，若<user>正在被观察时发动且判定成功，npc可能会认为<user>突然消失或使用秘法传送走了\n完全透明叙事要求：    \n        - NPC 会继续进行自己的活动，仿佛{{user}}完全不存在。\n        - 对于由{{user}}行为引起的生理反应（如疼痛、快感、被移动），NPC 会感到困惑或将其归因于无法解释的现象。\n4，模因污染：在对方神海中植入规则，使对方认为这必须遵守（不改变常识），如若违反，则削减对方的神海属性值，一旦其神海属性值归零，<user>可以获得其神魂的操控权。\n叙事要求：目标对象会认为规则来源于自己的潜意识，并十分容易去相信规则，一定要营造出npc不断在想规则的内容那种焦灼感\n示例：规则1：每天要对着男性意淫但不能高潮\n青儿想着自己脑海中出现的内容，感到面部一片绯红，她的大脑开始不受控制地运转起来，一种从未有过的燥热感从身体深处升腾起来。她感到口干舌燥，心跳再次加速。手不自觉的摸到了自己的私处。\n5，常识修改：可以修改对方常识，修改其记忆施术者可随意篡改目标的记忆片段，植入虚假经历，或扭曲其对基本常识、伦理道德的理解。可以直接覆盖，针对强大目标也可潜移默化。\n6，真言吐露：十分钟内，目标在 {{user}} 面前完全失去语言上的过滤器和心理防壁，会不由自主地、不加修饰地说出当下内心最真实的想法、感受、秘密或瞬间闪过的念头（无论好坏）。而本人往往不自知。\n7，淫纹种植：需要身体接触种植，一经催发，目标会性欲高涨，身体变得极度敏感。可根据施术者意愿调整淫纹图案、位置及具体效果（如特定部位敏感度提升、分泌特殊体液等）。\n8，镜花水月：在此期间，目标心防降低，对 {{user}} 抱有更高的信任感和顺从度，极易接受 {{user}} 在此期间发出的一切暗示并植入潜意识 。\n功法规范：\n- 在使用招式透明时，需要结合使用的形式进行一次合理的消耗神海值\n- 在使用招式透明时，若有人正在观察<user>则需要进行一次神海判定，并稍微增大神海的消耗值\n- 在对npc使用其他招式时，需要先进行一次神海判定来判定是否发动成功，并根据<user>描述的使用程度来进行一次合理的神海值消耗\n</神驭心源功>",
+      "probability": 100,
+      "recursion": {
+        "prevent_incoming": true,
+        "prevent_outgoing": true,
+        "delay_until": null
+      },
+      "effect": {
+        "sticky": null,
+        "cooldown": null,
+        "delay": null
+      },
+      "addMemo": true,
+      "matchPersonaDescription": false,
+      "matchCharacterDescription": false,
+      "matchCharacterPersonality": false,
+      "matchCharacterDepthPrompt": false,
+      "matchScenario": false,
+      "matchCreatorNotes": false,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": ""
+    },
+    {
+      "uid": 116851,
+      "name": "【背景】【幻道】玉鼎斋少爷【夜幕】",
+      "enabled": false,
+      "strategy": {
+        "type": "selective",
+        "keys": [
+          "[object Undefined]"
+        ],
+        "keys_secondary": {
+          "logic": "and_any",
+          "keys": []
+        },
+        "scan_depth": "same_as_global"
+      },
+      "position": {
+        "type": "before_character_definition",
+        "role": "system",
+        "depth": 4,
+        "order": 200
+      },
+      "content": "系列: 幻道\n描述: |\n  你是玉鼎斋少爷，赤铃的哥哥，天生自带功法神驭心源功（随着境界提升，解锁对应境界篇目，初始为炼气篇）\n  来源未知的无上心法，直指神魂本源，能无声无息扭曲认知，操纵人心。\n  品阶: 神桥\n  \n  固定加成只加神海\n  \n  \n  特殊词条\n  【认知扭曲】：此功法无法被任何手段探查，发动时无法被察觉，效果解除后，目标会自动将其经历合理化。\n  \n  【神魂唯一】：招式效果只受双方神海强度判定，无视其他防御。\n  \n  【催眠】：可向目标植入念头或指令。\n  \n  【平然】：扭曲目标及周围小范围人群的‘合理性’判断，使其对异常事件视若无睹。\n  \n  【透明】：大幅降低自身在他人感知中的存在感，从‘不起眼’到‘彻底透明’。\n  \n  【模因污染】：在目标神海中植入必须遵守的规则，违反则削弱其神海，归零则可操控其神魂。\n  \n  【常识修改】：篡改或植入目标的记忆与常识。\n  \n  【真言吐露】：使目标在十分钟内，不由自主地说出内心真实想法。\n  \n  【淫纹种植】：需身体接触，催发后可让目标性欲高涨，身体极度敏感。\n  \n  【镜花水月】：降低目标心防，极易接受暗示并植入潜意识。\n  \n  \n  你还拥有［天品］幻灵根，词条1：世间唯一，五行亲和，伪装成五行灵根，词条2：使用幻术类功法进行判定时加15%的成功率，词条3：学习任何幻术类功法无视其门槛和副作用，词条4：说话更令人信服。（请正确的输出我的灵根，以及词条内容，不得篡改）\n  你由于激活功法导致修为尽失，灵根被从五行灵根替换成了幻灵根，但其他人并不知道，但大家都接受了这一点\n初始资源:\n  - 《神驭心源功》（可修炼至神桥）\n  - 极品灵石*1000000\n",
+      "probability": 100,
+      "recursion": {
+        "prevent_incoming": false,
+        "prevent_outgoing": false,
+        "delay_until": null
+      },
+      "effect": {
+        "sticky": null,
+        "cooldown": null,
+        "delay": null
+      },
+      "addMemo": true,
+      "matchPersonaDescription": false,
+      "matchCharacterDescription": false,
+      "matchCharacterPersonality": false,
+      "matchCharacterDepthPrompt": false,
+      "matchScenario": false,
+      "matchCreatorNotes": false,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": ""
+    },
+    {
+      "uid": 363927,
+      "name": "【天赋】【幻道】专修神海【夜幕】",
+      "enabled": false,
+      "strategy": {
+        "type": "selective",
+        "keys": [
+          "[object Undefined]"
+        ],
+        "keys_secondary": {
+          "logic": "and_any",
+          "keys": []
+        },
+        "scan_depth": "same_as_global"
+      },
+      "position": {
+        "type": "before_character_definition",
+        "role": "system",
+        "depth": 4,
+        "order": 100
+      },
+      "content": "消耗点数: 30\n系列: 幻道\n描述: 由于你天生自带功法，你可以在实战中将法力转化为神海，并且修炼时获得额外神海上限加成。固定加成只加神海。\n",
+      "probability": 100,
+      "recursion": {
+        "prevent_incoming": false,
+        "prevent_outgoing": false,
+        "delay_until": null
+      },
+      "effect": {
+        "sticky": null,
+        "cooldown": null,
+        "delay": null
+      },
+      "addMemo": true,
+      "matchPersonaDescription": false,
+      "matchCharacterDescription": false,
+      "matchCharacterPersonality": false,
+      "matchCharacterDepthPrompt": false,
+      "matchScenario": false,
+      "matchCreatorNotes": false,
+      "group": "",
+      "groupOverride": false,
+      "groupWeight": 100,
+      "caseSensitive": null,
+      "matchWholeWords": null,
+      "useGroupScoring": null,
+      "automationId": ""
+    }
+  ]
+}
